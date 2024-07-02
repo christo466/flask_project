@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Scores</title>
+</head>
+<body>
+    {% if data %}
+    <h1>{{data}}</h1>
+    {% endif %}
+    <form action="/submit" method="post">
+        <label for="Science">Science:</label><br>
+        <input type="text" id="Science" name="science" value="0"><br><br>
+        <label for="Maths">Maths:</label><br>
+        <input type="text" id="Maths" name="maths" value="0"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div><a href="/login">Login</a></div>
+
+
+    <div> <a href="/logout">Logout</a></div>
+    
+    <div> <a href="/register">register</a></div>
+</body>
+</html>
