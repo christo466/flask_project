@@ -1,0 +1,93 @@
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table-container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem; 
+  }
+  
+  .table-head {
+    background-color: #f0f0f0;
+  }
+  
+  .table-row:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-row:nth-of-type(even) {
+    background-color: #e9e9e9;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #3700b3;
+  }
+  
+  .button-container button:disabled {
+    background-color: #c5c5c5;
+    cursor: not-allowed;
+  }
+
+
+.button-container {
+  display: flex;       
+  gap: 10px;             
+  align-items: center;    
+}
+
+
+.styled-button {
+  padding: 8px 16px;              
+  background-color: #007bff;      
+  color: white;                  
+  border: none;                   
+  cursor: pointer;                
+  border-radius: 4px;             
+  font-size: 14px;                
+  text-transform: uppercase;       
+  transition: background-color 0.3s ease; 
+}
+
+
+.styled-button:hover {
+  background-color: #0056b3; 
+}
+
+
+.MuiButton-root.styled-button {
+  padding: 8px 16px; 
+  background-color: #007bff !important; 
+  color: white !important; 
+  text-transform: uppercase !important; 
+  box-shadow: none !important; 
+  border-radius: 4px !important; 
+}
+
