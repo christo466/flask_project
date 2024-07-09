@@ -1,9 +1,9 @@
 
-import './Footer.css'; // Import the CSS file for styling
+import './Footer.css'; 
 
 function Footer() {
   return (
-    // <footer className="footer">
+    
       <div className="footer-content">
         <p>&copy; 2024 Mind Hive. All rights reserved.</p>
         <nav>
@@ -14,7 +14,7 @@ function Footer() {
           </ul>
         </nav>
       </div>
-    // </footer>
+   
   );
 }
 
